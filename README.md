@@ -68,3 +68,40 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+#### Bootstrap library
+Bootsrtap is a framework of CSS that used for styling 
+we can import it and use in our react apps 
+
+installation : npm install react-bootstrap bootstrap
+
+#### FusionCharts
+As we all know that we need data for product labels , organization reports
+to represent data and data visualizations, 
+we usually use Charts , diagrams for representing data
+
+Here FusionCharts comes, FusionCharts is a package that can be used in react apps / other javascript apps as well  to represent data
+Other packages are also there to represent data
+
+installation :  npm install fusioncharts react-fusioncharts --save
+
+After installing the fusioncharts components, you can replace the code in App.js file with the code shown in the steps below to create your first chart. Import all the required dependencies to get started.
+
+// Step 1 - Include react
+import React from "react";
+
+// Step 2 - Include the react-fusioncharts component
+import ReactFC from "react-fusioncharts";
+
+// Step 3 - Include the fusioncharts library
+import FusionCharts from "fusioncharts";
+
+// Step 4 - Include the chart type
+import Column2D from "fusioncharts/fusioncharts.charts";
+
+// Step 5 - Include the theme as fusion
+import FusionTheme from "fusioncharts/themes/fusioncharts.theme.fusion";
+
+// Step 6 - Adding the chart and theme as dependency to the core fusioncharts
+ReactFC.fcRoot(FusionCharts, Column2D, FusionTheme);

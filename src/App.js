@@ -1,14 +1,20 @@
+import React , {Component} from 'react';
 import './App.css';
-import GREET from './Components/Greet';
+import Greet from './Components/Greet';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <GREET />
-      </header>
-    </div>
-  );
+
+import Bootstrap from './Components/Bootstrap';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+          <Greet />
+          <Bootstrap />
+      </div>
+    )
+  }
 }
 
 export default App;
