@@ -53,7 +53,7 @@ function Chart() {
 
         //Configure your chart#
         const chartConfigs = {
-            type: "column2d", // The chart type
+            type: "doughnut2d", // The chart type
             width: "700", // Width of the chart
             height: "400", // Height of the chart
             dataFormat: "json", // Data type
@@ -71,7 +71,7 @@ function Chart() {
                 data: chartData
             }
         };
-        
+
         //Render Chart
     return (  <ReactFC {...chartConfigs} />  )
 }
