@@ -1,7 +1,6 @@
-import React from 'react'
-import { propTypes } from 'react-bootstrap/esm/Image'
+import React from 'react';
 
-function widgetText(props) {
+function WidgetText(props) {
     return (
         <div>
             <div className="widgetWrap">
@@ -17,4 +16,4 @@ function widgetText(props) {
     )
 }
 
-export default widgetText
+export default WidgetText;
