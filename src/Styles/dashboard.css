@@ -1,0 +1,30 @@
+ @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300;600;800&display=swap');
+
+ body{
+     font-family: 'Trispace', sans-serif;
+ }
+
+.widgetWrap{
+    background-color: #2a2a2a;
+    text-align: left;
+}
+
+.widgetTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px;
+    border-bottom: 1px solid #757070;    
+}
+
+.widgetValue .value {
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 2px 10px;
+    line-height: 100%;    
+}
+
+.description{
+    font-size: 1rem;
+    padding-left: 15px;
+}
