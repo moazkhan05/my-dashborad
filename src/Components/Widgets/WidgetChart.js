@@ -31,8 +31,8 @@ function WidgetChart() {
         //Render Chart
     return ( 
         <div>
-            <WidgetBar tilte="title" data={chartData}/> 
-            <WidgetDoughnut tilte="title" data={chartData}/>
+            <WidgetBar title="title" data={chartData}/> 
+            <WidgetDoughnut title="title" data={chartData}/>
         </div> 
      )
 }

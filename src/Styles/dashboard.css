@@ -4,6 +4,11 @@
      font-family: 'Trispace', sans-serif;
  }
 
+ /* this property and class is for svg */
+ text{
+     fill:white;
+ }
+
 .widgetWrap{
     background-color: #2a2a2a;
     text-align: left;
