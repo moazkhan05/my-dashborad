@@ -1,5 +1,4 @@
 import React from 'react';
-
 //importing fusionchart libraries
 //USING FUSION CHART for data visualization
 import ReactFC from "react-fusioncharts"; //react-fusioncharts component
@@ -10,11 +9,11 @@ import FusionTheme from "fusioncharts/themes/fusioncharts.theme.fusion"; //theme
 ReactFC.fcRoot(FusionCharts, Charts, FusionTheme);
 //end importing
 
-function WidgetDoughnut(props) {
+function WidgetColumn(props) {
 
      //Configure your chart#
         const chartConfigs = {
-            type: "doughnut2d", // The chart type
+            type: "column2d", // The chart type
             width: "100%", // Width of the chart
             height: "125", // Height of the chart
             dataFormat: "json", // Data type
@@ -43,4 +42,4 @@ function WidgetDoughnut(props) {
     )
 }
 
-export default WidgetDoughnut;
+export default WidgetColumn;
